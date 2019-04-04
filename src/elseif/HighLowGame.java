@@ -14,7 +14,7 @@ public class HighLowGame {
 
 		int random = new Random().nextInt(5) + 1;
 		System.out.println(random);
-		for (int i = 0; i < 5; i++) {
+		for (int i = 0; i < 3; i++) {
 
 				String Guess = JOptionPane.showInputDialog("Give your best numerical guess from 1-5");
 
